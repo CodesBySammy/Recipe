@@ -19,10 +19,6 @@
       "src": "/(.*)",
       "dest": "/public/$1"
     }
-  ],
-  "env": {
-    "MONGODB_URI": "@mongodb-uri",
-    "CLARIFAI_API_KEY": "@clarifai-api-key",
-    "JWT_SECRET": "@jwt-secret"
-  }
+  ]
+
 }
